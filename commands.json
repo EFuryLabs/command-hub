@@ -1,0 +1,52 @@
+{
+  "Linux": [
+    {
+      "name": "List files",
+      "command": "ls -la"
+    },
+    {
+      "name": "Disk usage",
+      "command": "df -h"
+    }
+  ],
+  "Trace32": [
+    {
+      "name": "Reset Target",
+      "command": "SYStem.RESeT"
+    }
+  ],
+  "Bash": [
+    {
+      "name": "List DIR Special",
+      "command": "DIR /B"
+    },
+    {
+      "name": "tree",
+      "command": "tree /a /f"
+    }
+  ],
+  "Git": [
+    {
+      "name": "Git Status",
+      "command": "git status"
+    },
+    {
+      "name": "Add All Files",
+      "command": "git add ."
+    },
+    {
+      "name": "Push",
+      "command": "git push origin main"
+    }
+  ],
+  "Embedded": [
+    {
+      "name": "build",
+      "command": "m -build"
+    },
+    {
+      "name": "fast name",
+      "command": "m -j64 build"
+    }
+  ]
+}
