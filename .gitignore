@@ -1,28 +1,30 @@
-# Virtual Environment
+# Virtual environment
 venv/
+.venv/
+env/
 .env/
 
-# Python Cache
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# VS Code
+# Editors
 .vscode/
-
-# PyCharm
 .idea/
 
-# macOS
+# OS clutter
 .DS_Store
-
-# Windows
 Thumbs.db
+desktop.ini
 
-# Build files
+# Build output (rebuilt by build-installer.bat)
 build/
 dist/
-
-# Executables
+installer/Output/
 *.exe
+
+# Runtime leftovers (the app normally writes these to %APPDATA%, but not always)
+error.log
+commands.broken-*.json
